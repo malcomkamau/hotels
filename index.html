@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./imports/css/all.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="shortcut icon" href="./assets/images/company_logo.jpeg" type="image/x-icon">
+        <title>XCompany</title>
+    </head>
+    <body>
+        <div class="canvas-background">
+            <canvas class="canvas" id="canvas"></canvas>
+        </div>
+
+        <section class="main">
+            <section class="container light">            
+                <!-- NAVIGATION BAR BEGINNING -->
+                <nav>
+                    <div class="nav__logo">XCompany</div>
+                    <ul class="nav__links">
+                        <li class="link"><a href="#home">Home</a></li>
+                        <li class="link"><a href="#popular__websites">Popular Websites</a></li>
+                        <li class="link"><a href="#">Blog</a></li>
+                        <li class="link"><a href="#">Contact Us</a></li>                        
+                    </ul>                    
+                </nav>
+                <!-- NAVIGATION BAR END -->
+    
+                <!-- HEADER BEGINNING -->
+                <header class="section__container header__container" id="home">
+                    <div class="header__image__container">
+                        <div class="header__content">
+                            <h1>Transform your idea into reality</h1>
+                            <p>Adapting technology to your world.</p>
+                        </div>
+            
+                        <div class="booking__container">
+                            <form action="">
+                                <div class="form__group">
+                                    <div class="input__group">
+                                        <input list="websites" type="text" title="What type of website are you looking for?" required>
+                                        <datalist id="websites">
+                                            <option value="Landing Page Website"></option>
+                                            <option value="Small Business Website"></option>
+                                            <option value="E-commerce Website"></option>
+                                            <option value="Co-operate Website"></option>
+                                            <option value="Portfolio Website"></option>
+                                        </datalist>
+                                        <label>Type <span class="required">*</span></label>
+                                    </div>
+                                    <p>What type of website are you looking for?</p>
+                                </div>
+                                <div class="form__group">
+                                    <div class="input__group">
+                                        <input type="number" title="How much can you spend?" required>
+                                        <label>Budget <span class="required">*</span></label>
+                                    </div>
+                                    <p>What's your price range?</p>
+                                </div>
+                                <div class="form__group">
+                                    <div class="input__group">
+                                        <input type="text" required>
+                                        <label>Features <span class="required">*</span></label>
+                                    </div>
+                                    <p>Any special features you want?</p>
+                                </div>
+                                <div class="form__group">
+                                    <div class="input__group">
+                                        <input type="text">
+                                        <label>Referrer</label>
+                                    </div>
+                                    <p>Who referred you?</p>
+                                </div>
+                                <p class="info">Fields with an "<span class="required">*</span>" must be filled.</p>
+                            </form>
+            
+                            <button class="btn">
+                                <i style="font-size:medium;">Go</i>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <!-- HEADER END -->    
+                 
+                <!-- POPULAR WEBSITES -->
+                <section class="section__container popular__container" id="popular__websites">
+                    <h2 class="section__header">Popular Websites</h2>
+                    <div class="popular__grid">
+                        <div class="popular__card">
+                            <img src="./assets/images/portfolio.png" alt="Portfolio">
+                            <div class="popular__content">
+                                <div class="popular__card__header">
+                                    <h4>Portfolio Website</h4>
+                                    <h4>Kes 7,500</h4>
+                                </div>
+                                <p>Popular among job seekers.</p>
+                            </div>
+                        </div>
+                        <div class="popular__card">
+                            <img src="./assets/images/e_commerce.png" alt="e_commerce">
+                            <div class="popular__content">
+                                <div class="popular__card__header">
+                                    <h4>E-commerce Website</h4>
+                                    <h4>Kes 9,500</h4>
+                                </div>
+                                <p>A light-weight site to conduct your business online.</p>
+                            </div>
+                        </div>
+                        <div class="popular__card">
+                            <img src="./assets/images/small_business.png" alt="small_business">
+                            <div class="popular__content">
+                                <div class="popular__card__header">
+                                    <h4>Small Business Website</h4>
+                                    <h4>Kes 8,500</h4>
+                                </div>
+                                <p>A great way to begin your online business journey.</p>
+                            </div>
+                        </div>
+                        <div class="popular__card">
+                            <img src="./assets/images/landing_page.png" alt="landing_page">
+                            <div class="popular__content">
+                                <div class="popular__card__header">
+                                    <h4>Landing Page Website</h4>
+                                    <h4>Kes 6,500</h4>
+                                </div>
+                                <p>Pull the attention of your clients with a simple yet stunning web page.</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </section>
+                <!-- POPULAR WEBSITES END -->
+    
+                <!-- REWARDS BEGINNING -->
+                <section class="section__container">
+                    <div class="reward__container">
+                        <p>100+ discount codes</p>
+                        <h4>Join rewards and discover amazing discounts on your booking.</h4>
+                        <button class="reward__btn">Join Rewards</button>
+                    </div>
+                </section>
+                <!-- REWARDS END -->
+    
+                <!-- FOOTER BEGINNING-->
+                <footer class="footer">
+                    <div class="section__container footer__container">
+                        <div class="footer__col">
+                            <h3>XCompany</h3>
+                            <p>                            
+                                XCompany is a web development company that offers a seamless and convinient means to design and create your desired website.
+                            </p>
+                            <p>
+                                Empowering businesses with innovative, user-centric, and future-ready digital experiences. We don’t just build websites—we craft seamless, intuitive, and impactful online journeys that connect, inspire, and drive success in the ever-evolving digital world.
+                            </p>
+                        </div>
+                        <div class="footer__col">
+                            <h4>Company</h4>
+                            <p>About Us</p>
+                            <p>Our Team</p>
+                            <p>Blog</p>
+                            <p>Book</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="footer__col">
+                            <h4>Legal</h4>
+                            <p>FAQs</p>
+                            <p>Terms & Conditions</p>
+                            <p>Privacy Policy</p>
+                        </div>
+                        <div class="footer__col">
+                            <h4>Resources</h4>
+                            <p>Social Media</p>
+                            <p>Help Center</p>
+                            <p>Partnerships</p>
+                        </div>
+                    </div>
+                    <div class="footer__bar">
+                        Copyright &copy; 2025 XCompany. All rights reserved.
+                    </div>
+                </footer>
+                <!-- FOOTER END -->
+            </section>
+        </section>
+        
+        <script  src="./assets/js/scriptAttraction.js"></script>
+        <script src="./assets/js/index.js"></script>        
+    </body>
+</html>
